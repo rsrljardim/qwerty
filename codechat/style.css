@@ -1,0 +1,31 @@
+/* *,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.separador {}
+
+.separador::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 0.5em;
+  border-top: 16px solid #000;
+  z-index: 1;
+}
+
+.separador::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 0.5em;
+  border-top: 1px solid #ccc;
+  z-index: 1;
+} */
+
+.w87{
+  width: 21.875rem;
+}

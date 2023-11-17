@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AULA JS</title>
+  <link rel="shortcut icon" href="hostinger.ico" type="image/x-icon">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+ 
+<body class="flex justify-center items-center h-screen bg-slate-100">
+  <main class="border border-slate-300 rounded-lg p-6 flex flex-col gap-8">
+    <h1 class="font-medium text-lg text-center">Seja Bem Vindo ao EconomizaPlus!
+      <p class="text-sm text-center">Insira os valores para economizar!</p>
+    </h1>
+ 
+    <div class="flex gap-4">
+      <div class="flex gap-4 justify-end items-center">
+        <label for="preco1">Preço 1:</label>
+        <input class="py-1 rounded-md ps-2 outline-0" id="preco1" type="number">
+      </div>
+      
+      <div class="flex gap-4 justify-end items-center">
+        <label for="qtde1" class="text-right">Quantidade 1:</label>
+        <input class="py-1 rounded-md ps-2 outline-0" id="qtde1" type="number">
+      </div>
+    </div>
+      
+    <div class="flex gap-4">
+      <div class="flex gap-4 justify-end items-center">
+        <label for="preco2">Preço 2:</label>
+        <input class="py-1 rounded-md ps-2 outline-0" id="preco2" type="number">
+      </div>
+      
+      <div class="flex gap-4 justify-end items-center">
+        <label for="qtde2" class="text-right">Quantidade 2:</label>
+        <input class="py-1 rounded-md ps-2 outline-0" id="qtde2" type="number">
+      </div>
+    </div>
+      
+    <button onclick="onButtonClick()" class="bg-green-400 py-1 rounded-md hover:bg-green-500">ECONOMIZAR!</button>
+  </main>
+</body>
+ 
+</html>

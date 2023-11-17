@@ -1,0 +1,111 @@
+*, *::before, *::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem 1.5rem;
+  border: 2px solid black;
+  width: calc(80vw - 3rem);
+  height: 240vh;
+}
+
+.row {
+  display: flex;
+  border: 2px solid red;
+  margin: 0.25rem;
+}
+
+.item {
+  border: 2px solid green;
+  margin: 0.25rem;
+  flex-basis: 1rem;
+}
+
+.grow-1 {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.grow-2 { 
+  flex-grow: 2;
+  flex-shrink: 2;
+}
+
+.grow-3 {
+  flex-grow: 3;
+  flex-shrink: 3;
+}
+
+.grow-4 {
+  flex-shrink: 4;
+  flex-grow: 4;
+}
+
+.grow-6{
+  flex-grow: 6;
+}
+
+p {
+  line-height: 1.2;
+  margin: 0.25rem;
+  border: 2px solid greenyellow;
+}
+
+.enfase {
+  font-size: 0.7rem;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.subitem {
+  border: 2px solid blue;
+  margin: 0.25rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.p-1{
+  padding: 0.5rem;
+}
+
+.pb-1{
+  padding-bottom: 0.5rem;
+}
+
+#cupom{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.sub-subitem{
+  border: 2px solid orange; 
+  margin: 0.25rem; 
+}
+
+img {
+  max-width: 100%;
+}
+

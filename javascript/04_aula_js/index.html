@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA 03</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="4.1_script.js" defer ></script>
+</head>
+<body class="flex flex-col justify-center items-center h-screen m-8 bg-slate-200">
+    <h1 class="font-semibold text-2xl mb-16" >Lista de afazeres:</h1>
+    <main class="grow w-full flex flex-col ">
+        <div class="flex flex-col items-end w-full justify-start">
+            <div class="border border-black rounded-sm bg-white">
+                <button class="bg-red-400 px-2 text-white" onclick="funcaoDeLimpar()">X</button>
+                <input class="outline-0" id="inputBacana" onkeydown="funcaoDaTecla(event)" type="text">
+                <button class="border-l px-2 border-l-black" onclick="funcaoDoClick()">Ok</button>
+            </div>
+        </div>
+        <div class="mt-4" id="divBacana"></div>
+    </main>
+</body>
+</html> 

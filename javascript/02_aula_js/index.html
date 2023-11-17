@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AULA 2</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+ 
+<body class="flex justify-center items-center h-screen bg-lime-50">
+  <main class="flex flex-col gap-4 bg-slate-400 p-12 rounded-md">
+    <h1 class="mb-4 text-center text-xl font-medium">Entre com sua mensagem:</h1>
+    <div class="flex flex-col gap-1">
+      <input class="rounded-md ps-2 py-2 outline-0 focus:ring" id="inputMsg" placeholder="Texto..."  type="text">
+    </div>
+    <button id="botao" onclick="onButtonClick()" class="py-1 bg-lime-600 rounded-md hover:bg-lime-700">Enviar</button>
+    <div id="Historico" class="border flex justify-center p-8 rounded-md bg-white">
+    </div>
+    </main>
+
+  </div>
+</body>
+ 
+</html>

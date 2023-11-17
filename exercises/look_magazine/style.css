@@ -1,0 +1,73 @@
+:root {
+    font-size: 32px;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    margin: 1.5rem;
+    width: calc(80vw - 3rem);
+    height: 240vh;
+    border: 2px solid black;
+}
+
+.row {
+    display: flex;
+    border: 2px solid red;
+    margin: 0.25rem   
+}
+
+.item {
+    border: 2px solid green;
+    margin: 0.25rem;
+}
+
+.subitem {
+    border: 2px solid blue;
+    margin: 0.25rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.grow-1 {
+    flex-grow: 1;
+}
+.grow-2 {
+    flex-grow: 2;
+}
+.grow-3 {
+    flex-grow: 3;
+}
+.grow-4 {
+    flex-grow: 4;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+/* .text-right {
+    text-align: right;
+} */
